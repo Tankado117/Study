@@ -1,0 +1,28 @@
+﻿@{ 
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<body>
+    <p>
+        @Html.Encode(ViewData["Post1"])
+    </p>
+    <div>
+        <!--Anser,HomeはソリューションのHome/Anserのこと。Post先のリンクを示している。-->
+
+        @using (Html.BeginForm(
+              "Answer",
+              "Home" ,
+              null,
+              FormMethod.Post,
+              new { enctype = "multipart/form-data" }
+              ))
+        {
+            @Html.TextBox("textBox", "", new { maxlength = 20 })
+            <input type="submit" value="送信" />
+        }
+    </div>
+</body>
+</html>

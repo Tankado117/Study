@@ -1,0 +1,25 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<body>
+    <h2>FizzBuzz</h2>
+
+    <p>
+        @Html.Encode(ViewData["PostData"])
+    </p>
+
+    <p>
+        【変更前】
+        @ViewData["Before"]
+    </p>
+
+    <p>
+        【After】
+        @ViewData["After"]
+    </p>
+</body>
+</html>
