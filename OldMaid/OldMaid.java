@@ -3,9 +3,9 @@
  */
 public class OldMaid
 {
-/*    public static void main(String args[])
+    public static void main(String args[])
     {
-        // 進行役の生成
+/*        // 進行役の生成
         Master master = new Master();
         
         // 場の生成
@@ -29,10 +29,10 @@ public class OldMaid
         
         // ゲームを開始する
         master.startGame();
-        
+*/        
     }
     
-    /**
+    /*
      * 53枚のトランプを生成する。
      * 
      * @return トランプを格納したHand

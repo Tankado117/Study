@@ -10,6 +10,11 @@ public class Card
 	public static int SUIT_DIAMOND = 2;
 	public static int SUIT_HEART = 3;
 	public static int SUIT_SPADE = 4;
+
+	public Card(int suit, int number){
+		this.suit = suit;
+		this.number = number;
+	}
 	
 	//”š‚ğŒ©‚é
 	public int showNumber(){
