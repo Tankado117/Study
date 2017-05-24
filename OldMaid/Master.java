@@ -1,6 +1,6 @@
 public  class Master
 {
-	//ã‚è‚ğéŒ¾‚·‚é
+	//‚ ‚ª‚è‚ğéŒ¾‚·‚é
 	public void registerPlayer(){
 		
 	}
